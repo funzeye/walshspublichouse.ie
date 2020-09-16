@@ -24,9 +24,23 @@
 }
 
 .menu-container-inner{
-    padding-top: 64px; 
-    padding-bottom: 64px; 
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+}
 
+@media (min-width:350px)
+{
+    .menu-container-inner {
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+}
+@media (min-width:700px)
+{
+    .menu-container-inner {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
 }
 
 .menu-container-inner{
