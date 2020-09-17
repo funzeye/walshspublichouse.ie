@@ -20,7 +20,21 @@
     background-size: 100%;
     left: 0;
     right: 0;
-    min-height:30vh;
+    min-height:34vh;
+}
+
+@media (min-width:400px)
+{  
+    .main-image-drinks{
+        min-height:40vh;
+    }
+}
+
+@media (min-width:700px)
+{  
+    .main-image-drinks{
+        min-height:43vh;
+    }
 }
 
 .menu-container-inner{
@@ -70,6 +84,10 @@
     width: 100%;
 }
 
+.main-inner{
+    width: 100%;
+}
+
 .main-image a, .main-image-drinks a{
     color: white;
     text-decoration: none;
@@ -85,6 +103,9 @@ a {
 .nav-container{
     margin: 0 auto;
     padding-top: 24px;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
 }
 
 .pdfLink{
@@ -158,7 +179,21 @@ footer address{
 
 .main-outer{
     position: relative;
-    height: 90vh;
+    height: 40vh;
+}
+
+@media (min-width:700px)
+{  
+    .main-outer{
+        height: 70vh;
+    }
+}
+
+@media (min-width:1000px)
+{  
+    .main-outer{
+        height: 90vh;
+    }
 }
 
 .svg-link {
@@ -254,6 +289,42 @@ footer svg{
 .photo-container img{
     width: 100%;
     height: 100%;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+/*******************************************/
+
+.logo-main-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: -36px;
+    justify-content: center;
+}
+
+.logo-main-container{
+    position: relative;
+    max-width: 100%;
+    min-width: 0;
+    background: none;
+}
+
+.logo-main{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+.logo-drinks-inner-container{
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 16px;
+}
+.logo-drinks{
+    width: 100%;
+    height: auto;
+    max-width: 420px;
     overflow: visible;
     overflow-x: visible;
     overflow-y: visible;
