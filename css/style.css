@@ -20,14 +20,7 @@
     background-size: 100%;
     left: 0;
     right: 0;
-    min-height:34vh;
-}
-
-@media (min-width:400px)
-{  
-    .main-image-drinks{
-        min-height:40vh;
-    }
+    min-height:60vh;
 }
 
 @media (min-width:700px)
@@ -179,7 +172,7 @@ footer address{
 
 .main-outer{
     position: relative;
-    height: 40vh;
+    height: 60vh;
 }
 
 @media (min-width:700px)
