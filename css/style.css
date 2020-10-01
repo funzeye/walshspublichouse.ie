@@ -1,3 +1,15 @@
+.alert-banner{
+    font-size: 24px;
+    padding: 24px 16px;
+    text-align: center;
+    background-color: #a86a45;
+    font-weight: bold;
+    border-bottom:1px solid white;
+}
+.alert-banner a{
+    color: white;
+}
+
 .main-image{
     display:flex;
     /*background-image: linear-gradient(90deg,rgba(47,45,65,.9),rgba(47,45,65,.9)), url('../img/pub-image.jpg');*/
